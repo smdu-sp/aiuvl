@@ -1,0 +1,10 @@
+<?php
+
+function geraProtocolo($idInscricao)
+{
+  // parâmetros para a geração do protocolo
+
+}
+
+
+?>

@@ -1,0 +1,169 @@
+/* Estilo Principal */
+
+/* Cores 
+ * Roxo = #3a0061;
+ * Roxo Botão = #8800e0;
+ * Verde Botão = #2eed89;
+ * */
+
+/* FONTES */
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 800;
+  src: url(/assets/fonts/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 700;
+  src: url(/assets/fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 500;
+  src: url(/assets/fonts/OpenSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 400;
+  src: url(/assets/fonts/OpenSans-Regular.ttf);
+}
+
+body {
+  background-color: #F1F1F1;
+}
+.botao-anexo, .tamanho_arquivo{
+  display: flex;
+  justify-content: center;
+}
+#anexo_titular {
+  overflow: hidden;
+  position: relative;
+  width: 210px;
+  font-weight: 800;
+}
+#arquivo_titular{
+  margin-right: 10px;
+}
+#anexo_titular input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+}
+
+#anexo_titular::before {
+  content: 'Selecionar Arquivo';
+  display: inline-block;
+  color: #383838 !important;
+  background-color: #abf8d0 !important;
+  border: 1px solid #8be9b9 !important;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.veracidade {
+  margin: 30px 0;
+}
+
+.alinhar-final button {
+  margin-bottom: 30px;
+  padding: 10px 40px;
+}
+
+.veracidade input {
+  border-radius: 50%;
+}
+
+.texto-header,
+h1 {
+  text-align: center;
+  font-size: 28px;
+}
+
+.botoes-header {
+  padding: 15px 50px;
+  font-size: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #383838;
+  font-weight: 800;
+  background-color: #abf8d0 !important;
+  border: 1px solid #8be9b9 !important;
+}
+
+.botoes-heade:hover, .enviar {
+  color: #383838 !important;
+  background-color: #abf8d0 !important;
+  border: 1px solid #8be9b9 !important;
+}
+
+.container-header-botoes a:hover{
+  color: #383838 !important;
+}
+
+.container-header-botoes {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-formulario {
+  border: 2px #083199 solid;
+  padding: 20px 50px;
+}
+
+.titulo-form,
+h2 {
+  margin: 0;
+  font-weight: bold;
+  color: #fff;
+}
+
+.titulo-form {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #083199;
+}
+
+.titulo-form {
+  margin-top: 40px !important;
+}
+
+.alinhar-final {
+  text-align: center;
+}
+
+.container input {
+  padding: 20px !important;
+}
+
+.logo img {
+  max-width: 100% !important;
+}
+
+.logo {
+  margin-bottom: 50px;
+}
+
+.enviar {
+  font-weight: bold !important;
+}
+
+.label_anexo {
+  margin-bottom: 0;
+}
+
+.container {
+  padding: 0;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px !important;
+  }
+}

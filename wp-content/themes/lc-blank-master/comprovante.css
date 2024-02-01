@@ -1,0 +1,16 @@
+  /* Comprovante */
+  .comprovante {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 60px;
+  }
+  
+  .comprovante h1 {
+    font-weight: bold;
+  }
+  
+  .comprovante h1,
+  .comprovante p {
+    font-size: 16px;
+    font-family: Tahoma, Arial, sans-serif;
+  }

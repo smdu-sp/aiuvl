@@ -1,0 +1,232 @@
+.bnt-esquerda .botao-filtro {
+    margin-left: 20px;
+}
+ 
+.botao-filtro {
+    padding: 11.5px 20px !important;
+    background-color: white;
+    border: #d3d3d3 2px solid !important;
+    border-radius: 5px !important;
+}
+ 
+.botao-filtro:hover{
+    background-color: #dddddd;
+    border: #9e9e9e 2px solid !important;
+}
+ 
+.botao-painel {
+    margin-left: 20px;
+    padding: 11.5px 20px !important;
+    background-color: white;
+    border: #d3d3d3 2px solid !important;
+    border-radius: 5px !important;
+ 
+}
+ 
+.botao-painel:hover {
+    background-color: #8a9caa;
+    text-decoration: none;
+}
+
+.table-striped img{
+    width: 35px;
+}
+ 
+.link_down {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
+.toolbar {
+    display: flex !important;
+}
+ 
+.loading-text {
+    display: none;
+}
+ 
+.fresh-table {
+    margin: 5vh 1.5vw;
+    box-shadow: 3px 3px 10px #8a9caa;
+    padding: 30px;
+    border-radius: 20px !important;
+}
+ 
+th {
+    font-weight: bold !important;
+    font-size: 14px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    background-color: #b7c2ca;
+}
+ 
+table {
+    border: grey 1px solid !important;
+    margin-top: 10px !important;
+    color: black;
+    text-align: center;
+}
+ 
+tr {
+    background-color: #c1cbd2 !important;
+    border: #7e92a0 1px solid !important;
+    font-size: 14px;
+}
+td {
+    vertical-align: middle !important;
+}
+ 
+option {
+    background-color: #F1F1F1;
+}
+ 
+.dis {
+    display: flex;
+}
+ 
+.bx {
+    font-size: 20px;
+    padding: 13px 9px;
+}
+ 
+.nav-top {
+    margin-bottom: 510px;
+}
+ 
+.bx-menu {
+    font-size: 24px;
+    height: calc(var(--header-height) + 1rem);
+}
+ 
+.header {
+    padding: 50px auto;
+}
+ 
+.select-filtro {
+    appearance: none;
+}
+ 
+.option-escolha:hover>.span-escolha {
+    display: none;
+}
+ 
+.full-color-orange {
+    background-color: #dde2e6;
+    margin-top: 30px !important;
+    overflow-x: scroll;
+}
+ 
+.full-color-orange::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+.full-color-orange::-webkit-scrollbar-thumb {
+    background-color: #8a9caa;
+    border-radius: 20px;
+    border: none;
+}
+ 
+.toolbar {
+    margin-bottom: 20px;
+}
+ 
+.btn-default {
+    margin-left: 10px !important;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+ 
+input {
+    padding: 30px !important;
+}
+ 
+.search-input {
+    padding: 21px !important;
+}
+ 
+.botao-filtro {
+    padding: 5px;
+}
+ 
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #8f8f8f;
+}
+ 
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #8f8f8f;
+}
+ 
+.pagination>li>a, .pagination>li>span {
+    border-radius: 50% !important;
+    margin: 0 10px;
+}
+ 
+.card-view-title {
+    margin-right: 10px !important;
+    font-weight: bold;
+}
+ 
+.card-views{
+    text-align: left;
+    padding: 20px 30vw;
+}
+ 
+.dropdown-menu:nth-child(2){
+    background-color: #8a9caa !important;
+    font-size: 16px !important;
+    left: -100px !important;
+    padding: 20px 10px !important;
+}
+ 
+.col_4,
+.col_8{
+    border-left: 2px #7e92a0 solid !important;
+}
+ 
+.col_11{
+    border-right: 2px #7e92a0 solid !important;
+}
+/* td:nth-child(6),
+td:nth-child(10){
+    border-left: 2px #7e92a0 solid !important;
+}
+ 
+td:nth-child(13){
+    border-right: 2px #7e92a0 solid !important;
+} */
+/* tr:nth-child(1) > td:nth-child(14){
+    display: none !important;
+} */
+
+
+ 
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: none !important;
+}
+ 
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #7e92a0 !important;
+}
+ 
+.dropdown-toggle{
+    font-size: 20px !important;
+}
+ 
+.btn-default{
+    font-size: 20px !important;
+}

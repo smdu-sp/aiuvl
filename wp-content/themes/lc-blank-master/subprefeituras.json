@@ -1,0 +1,428 @@
+{
+	"subprefeituras":[
+	   {
+		  "nome":"Aricanduva",
+		  "endereco":"Rua Atucuri, 699",
+		  "zonas":[
+			 {
+				"numero":"348",
+				"bairro":"Vila Formosa"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Butantã",
+		  "endereco":"Rua Dr. Ulpiano da Costa Manso, 201",
+		  "zonas":[
+			 {
+				"numero":"346",
+				"bairro":"Vila Sônia"
+			 },
+			 {
+				"numero":"374",
+				"bairro":"Rio Pequeno"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Campo Limpo",
+		  "endereco":"Avenida Giovanni Gronchi, 7143",
+		  "zonas":[
+			 {
+				"numero":"328",
+				"bairro":"Vila Pirajussara"
+			 },
+			 {
+				"numero":"20",
+				"bairro":"Capão Redondo"
+			 },
+			 {
+				"numero":"373",
+				"bairro":"Jardim Atlântico"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Capela do Socorro",
+		  "endereco":"Rua Cassiano dos Santos, 499",
+		  "zonas":[
+			 {
+				"numero":"280",
+				"bairro":"Capela do Socorro"
+			 },
+			 {
+				"numero":"371",
+				"bairro":"Cidade Dutra"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Casa Verde/Cachoeirinha",
+		  "endereco":"Avenida Ordem e Progresso, 1001",
+		  "zonas":[
+			 {
+				"numero":"255",
+				"bairro":"Casa Verde"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Cidade Ademar",
+		  "endereco":"Avenida Yervant Kissajikain, 416",
+		  "zonas":[
+			 {
+				"numero":"351",
+				"bairro":"Jardim Prudência"
+			 },
+			 {
+				"numero":"418",
+				"bairro":"Vila Emir"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Cidade Tiradentes",
+		  "endereco":"Estrada Iguatemi, 7001",
+		  "zonas":[
+			 {
+				"numero":"404",
+				"bairro":"Guaianazes"
+			 },
+			 {
+				"numero":"405",
+				"bairro":"Jardim Helena"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Ermelino Matarazzo",
+		  "endereco":"Avenida São Miguel, 5550",
+		  "zonas":[
+			 {
+				"numero":"326",
+				"bairro":"Parque Boturussu"
+			 },
+			 {
+				"numero":"392",
+				"bairro":"Ponte Rasa"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Freguesia/Brasilandia",
+		  "endereco":"Avenida João Marcelino Branco, 95",
+		  "zonas":[
+			 {
+				"numero":"376",
+				"bairro":"Brasilândia"
+			 },
+			 {
+				"numero":"327",
+				"bairro":"Freguesia do Ó"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Guaianazes",
+		  "endereco":"Rua Hipólito de Camargo, 479",
+		  "zonas":[
+			 {
+				"numero":"353",
+				"bairro":"Guaianazes"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Ipiranga",
+		  "endereco":"Rua Breno Ferraz do Amaral, 425",
+		  "zonas":[
+			 {
+				"numero":"260",
+				"bairro":"Ipiranga"
+			 },
+			 {
+				"numero":"413",
+				"bairro":"Vila Moraes"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Itaim Paulista",
+		  "endereco":"Avenida Marechal Tito, 3012",
+		  "zonas":[
+			 {
+				"numero":"352",
+				"bairro":"Itaim Paulista"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Itaquera",
+		  "endereco":"Rua Augusto Carlos Bauman, 851",
+		  "zonas":[
+			 {
+				"numero":"248",
+				"bairro":"Itaquera"
+			 },
+			 {
+				"numero":"417",
+				"bairro":"Cidade Líder"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Jabaquara",
+		  "endereco":"Avenida Engº Armando de Arruda Pereira, 2314",
+		  "zonas":[
+			 {
+				"numero":"320",
+				"bairro":"Jabaquara"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Jaçanã/Tremembe",
+		  "endereco":"Avenida Luis Stamatis, 300",
+		  "zonas":[
+			 {
+				"numero":"349",
+				"bairro":"Jaçana"
+			 },
+			 {
+				"numero":"256",
+				"bairro":"Tremembe"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Lapa",
+		  "endereco":"Rua Guaicurus, 1000",
+		  "zonas":[
+			 {
+				"numero":"250",
+				"bairro":"Lapa"
+			 },
+			 {
+				"numero":"2",
+				"bairro":"Agua Branca"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"M'Boi Mirim",
+		  "endereco":"Avenida Guarapiranga, 1695",
+		  "zonas":[
+			 {
+				"numero":"372",
+				"bairro":"Jardim Ângela (Zona Sul)"
+			 },
+			 {
+				"numero":"408",
+				"bairro":"Vila Maracanã"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Mooca",
+		  "endereco":"Rua Taquari, 549",
+		  "zonas":[
+			 {
+				"numero":"4",
+				"bairro":"Mooca"
+			 },
+			 {
+				"numero":"253",
+				"bairro":"Vila Azevedo"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Parelheiros",
+		  "endereco":"Avenida Sadamu Inoue, 5252",
+		  "zonas":[
+			 {
+				"numero":"381",
+				"bairro":"Parelheiros"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Penha",
+		  "endereco":"Rua Candapuí, 492",
+		  "zonas":[
+			 {
+				"numero":"252",
+				"bairro":"Vila Esperanca"
+			 },
+			 {
+				"numero":"347",
+				"bairro":"Vila Nova Savoia"
+			 },
+			 {
+				"numero":"390",
+				"bairro":"Cangaíba"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Perus",
+		  "endereco":"Rua Ylídio Figueiredo, 349",
+		  "zonas":[
+			 {
+				"numero":"389",
+				"bairro":"Jardim Adelfiore"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Pinheiros",
+		  "endereco":"Avenida Doutora Ruth Cardoso, 7123",
+		  "zonas":[
+			 {
+				"numero":"251",
+				"bairro":"Pinheiros"
+			 },
+			 {
+				"numero":"5",
+				"bairro":"Itaim Bibi"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Pirituba/Jaraguá",
+		  "endereco":"Avenida Dr. Felipe Pinel, 12",
+		  "zonas":[
+			 {
+				"numero":"325",
+				"bairro":"Pirituba"
+			 },
+			 {
+				"numero":"403",
+				"bairro":"Jaragua"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Santana/Tucuruvi",
+		  "endereco":"Avenida Tucuruvi, 808",
+		  "zonas":[
+			 {
+				"numero":"249",
+				"bairro":"Santana"
+			 },
+			 {
+				"numero":"422",
+				"bairro":"Mandaqui"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Santo Amaro",
+		  "endereco":"Praça Floriano Peixoto, 54",
+		  "zonas":[
+			 {
+				"numero":"246",
+				"bairro":"Santo Amaro"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"São Mateus",
+		  "endereco":"Rua Ragueb Chohfi, 1400",
+		  "zonas":[
+			 {
+				"numero":"375",
+				"bairro":"São Mateus"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"São Miguel Paulista",
+		  "endereco":"Rua Dona Ana Flora Pinheiro de Sousa, 76",
+		  "zonas":[
+			 {
+				"numero":"398",
+				"bairro":"Vila Jacuí"
+			 },
+			 {
+				"numero":"247",
+				"bairro":"Sao Miguel Paulista"
+			 },
+			 {
+				"numero":"397",
+				"bairro":"Vila Curuçá"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Sapopemba",
+		  "endereco":"Avenida Sapopemba, 9064",
+		  "zonas":[
+			 {
+				"numero":"421",
+				"bairro":"Conjunto Habitacional Teotonio Vilela"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Sé",
+		  "endereco":"Rua Álvares Penteado, 49",
+		  "zonas":[
+			 {
+				"numero":"1",
+				"bairro":"Bela Vista"
+			 },
+			 {
+				"numero":"3",
+				"bairro":"Bom Retiro"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Vila Maria/Vila Guilherme",
+		  "endereco":"Rua General Mendes, 111",
+		  "zonas":[
+			 {
+				"numero":"254",
+				"bairro":"Vila Maria"
+			 },
+			 {
+				"numero":"420",
+				"bairro":"Vila Sabrina"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Vila Mariana",
+		  "endereco":"Rua José de Magalhães, 500",
+		  "zonas":[
+			 {
+				"numero":"6",
+				"bairro":"Vila Clementino"
+			 },
+			 {
+				"numero":"258",
+				"bairro":"Itaim Bibi"
+			 },
+			 {
+				"numero":"259",
+				"bairro":"Saúde"
+			 }
+		  ]
+	   },
+	   {
+		  "nome":"Vila Prudente",
+		  "endereco":"Avenida do Oratório, 172",
+		  "zonas":[
+			 {
+				"numero":"257",
+				"bairro":"Vila Prudente"
+			 },
+			 {
+				"numero":"350",
+				"bairro":"Sapopemba"
+			 }
+		  ]
+	   }
+	]
+ }
