@@ -31,14 +31,14 @@ get_header(); ?>
         </div>
       </div>
       <div class="header header-instrucoes">
-        <h2>Instruções para o envio da documentação</h2>
+        <h2 class="container-title">Instruções para o envio da documentação</h2>
         <p>A documentação da candidatura deve ser enviada em arquivo único, com tamanho máximo de 250 MB. Para incluir mais de um arquivo, recomendamos utilizar o formato pasta compactada (Arquivo ZIP).</p>
         <p>Caso o tamanho do arquivo ultrapasse 250 MB, será necessário separar os arquivos em mais de uma pasta compactada e enviar quantas inscrições sejam necessárias para o envio completo da documentação.</p>
         <h3>Compactar arquivos no Windows 11</h3>
         <div>
           <img src="\assets\img\pasta-compactada-zip-win11.png" alt="Instruções de upload Windows 11"  aria-hidden="true">
         </div>
-        <ol>
+        <ol class="list">
           <li>Selecionar os arquivos a serem compactados;</li>
           <li>Com os itens selecionados, clique com o botão direito do mouse em qualquer um dos itens selecionados;</li>
           <li>Selecionar a opção "Compactar para arquivo ZIP".</li>
@@ -47,7 +47,7 @@ get_header(); ?>
         <div>
           <img src="\assets\img\pasta-compactada-zip-win10.png" alt="Instruções de upload Windows 10"  aria-hidden="true">
         </div>
-        <ol>
+        <ol class="list">
           <li>Selecionar os arquivos a serem compactados;</li>
           <li>Com os itens selecionados, clique com o botão direito do mouse em qualquer um dos itens selecionados;</li>
           <li>Selecionar a opção "Enviar para";</li>
@@ -57,7 +57,7 @@ get_header(); ?>
         <div>
           <img src="\assets\img\pasta-compactada-zip-macos.jpg" alt="Instruções de upload Mac OS"  aria-hidden="true">
         </div>
-        <ol>
+        <ol class="list">
           <li>Selecionar os arquivos a serem compactados;</li>
           <li>Com os itens selecionados, clique com o botão direito do mouse em qualquer um dos itens selecionados;</li>
           <li>Selecionar a opção "Comprimir itens"</li>
@@ -65,6 +65,18 @@ get_header(); ?>
       </div>
     </div>
     <style>
+
+      img{
+        max-width: 100%;
+      }
+      .container-title{
+        margin-top: 50px;
+        margin-bottom: 40px;
+      }
+      .list{
+        margin-left: 20px;
+      }
+
       .logo{
        margin: auto;
        padding: 0 2px;
