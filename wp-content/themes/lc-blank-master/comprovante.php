@@ -34,7 +34,7 @@ $html = <<<HTML
   <p style="font-size: 16px; margin-bottom: 16px;">Nome: $nomeContato </p>
   <p style="font-size: 16px; margin-bottom: 16px;">E-mail: $emailTo</p>
   <p style="font-size: 16px; margin-bottom: 16px;">Segment: $segmentoArr[$segmento]</p>
-  <p style="font-size: 16px; margin-bottom: 64px;">Inscrição para Eleição do Conselho Gestor Aiu Vl efetuada com sucesso.</p>
+  <p style="font-size: 16px; margin-bottom: 64px;">Inscrição para Eleição do Conselho Gestor AIU VL efetuada com sucesso.</p>
   <p style="font-size: 16px; margin-bottom: 40px;">São Paulo, $dataFinal.</span></p>
 </div>
 HTML;
