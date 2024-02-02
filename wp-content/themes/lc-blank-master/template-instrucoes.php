@@ -9,10 +9,10 @@ session_start();
 // $hora_desejada =  mktime(2, 59, 58, 8, 18, 2023);
 // $hora_fechamento = $hora_desejada - $hora_atual;
 
-if ($hora_fechamento < 0) {
-    // header('Location: https://www.eleicaocmpu2023.prefeitura.sp.gov.br/inscricoes-encerradas/');
-    // exit;
-}
+// if ($hora_fechamento < 0) {
+//     // header('Location: https://www.eleicaocmpu2023.prefeitura.sp.gov.br/inscricoes-encerradas/');
+//     // exit;
+// }
 
 get_header(); ?>
 
@@ -36,7 +36,7 @@ get_header(); ?>
         <p>Caso o tamanho do arquivo ultrapasse 250 MB, será necessário separar os arquivos em mais de uma pasta compactada e enviar quantas inscrições sejam necessárias para o envio completo da documentação.</p>
         <h3>Compactar arquivos no Windows 11</h3>
         <div>
-          <img src="\assets\assets\img\pasta-compactada-zip-win11.png" alt="Instruções de upload Windows 11"  aria-hidden="true">
+          <img src="\assets\img\pasta-compactada-zip-win11.png" alt="Instruções de upload Windows 11"  aria-hidden="true">
         </div>
         <ol>
           <li>Selecionar os arquivos a serem compactados;</li>
@@ -45,7 +45,7 @@ get_header(); ?>
         </ol>
         <h3>Compactar arquivos no Windows 10 e versões anteriores</h3>
         <div>
-          <img src="\assets\assets\img\pasta-compactada-zip-win10.png" alt="Instruções de upload Windows 10"  aria-hidden="true">
+          <img src="\assets\img\pasta-compactada-zip-win10.png" alt="Instruções de upload Windows 10"  aria-hidden="true">
         </div>
         <ol>
           <li>Selecionar os arquivos a serem compactados;</li>
@@ -55,7 +55,7 @@ get_header(); ?>
         </ol>
         <h3>Compactar arquivos no Mac OS e Linux</h3>
         <div>
-          <img src="\assets\assets\img\pasta-compactada-zip-macos.jpg" alt="Instruções de upload Mac OS"  aria-hidden="true">
+          <img src="\assets\img\pasta-compactada-zip-macos.jpg" alt="Instruções de upload Mac OS"  aria-hidden="true">
         </div>
         <ol>
           <li>Selecionar os arquivos a serem compactados;</li>
