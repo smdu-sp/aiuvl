@@ -14,7 +14,7 @@ $segmentoArr = array(
   'Setor empresarial'
 );
 
-$data = date("j, m, Y");
+$data = date("d, m, Y");
 $data_separada = explode(', ', $data);
 $dataFinal = implode('/', $data_separada);
 
