@@ -14,13 +14,13 @@ $segmentoArr = array(
   'Setor empresarial'
 );
 
-$data = date("j, m, Y"); 
+$data = date("j, m, Y");
 $data_separada = explode(', ', $data);
 $dataFinal = implode('/', $data_separada);
 
 
 $html = <<<HTML
-<div class="comprovante" style="font-family: Tahoma, Arial, sans-serif; max-width: 600px; margin: auto; margin-top: 60px;">
+<div class="comprovante" id="comprovante" style="font-family: Tahoma, Arial, sans-serif; max-width: 600px; margin: auto; margin-top: 60px;">
   <div style="margin-bottom: 16px">
     <img style="width: 133px; height: 130px; display: block; margin: 0 auto;" src="https://cmpu.prefeitura.sp.gov.br//assets/img/comprovante-logo-smul.png" alt="Logo da Secretaria Municipal de Urbanismo e Licenciamento">
   </div>
@@ -44,7 +44,7 @@ HTML;
 
 <main id="textoComprovante">
   <div id="app">
-    <div class="header header-instrucoes">
+    <div id="header-instrucoes" class="header header-instrucoes">
       <p>Inscrição realizada com sucesso!</p>
       <p>Uma cópia do comprovante foi enviado para o endereço de e-mail informado, caso não tenha recebido, verifique
         sua pasta de "spam".</p>
@@ -68,19 +68,23 @@ $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 ?>
 
 <center>
-  <button id="botaoImprimir" style="border-style: revert; -webkit-appearance: auto; appearance: auto"
-    onClick="imprimir()">Imprimir Comprovante</button>
+  <button id="botaoImprimir" style="border-style: revert; -webkit-appearance: auto; appearance: auto" onClick="imprimir()">Imprimir Comprovante</button>
 </center>
+
 
 <script>
   window.onafterprint = function() {
     var impr = document.getElementById('botaoImprimir');
+    var instrucoes = document.getElementById('header-instrucoes');
     impr.style.display = 'block';
+    instrucoes.style.display = 'block';
   }
 
   function imprimir() {
     var impr = document.getElementById('botaoImprimir');
     impr.style.display = 'none';
+    var instrucoes = document.getElementById('header-instrucoes');
+    instrucoes.style.display = 'none';
     window.print();
   }
 </script>
