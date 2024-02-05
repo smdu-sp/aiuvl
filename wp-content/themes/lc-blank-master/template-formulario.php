@@ -294,7 +294,7 @@ get_header(); ?>
             para instruções sobre como compactar os arquivos.</span></br>
           <div class="item-anexo">
             <div class="botao-anexo">
-              <input type="file" id="anexo_titular" name="anexo_titular" @change="mudaAnexoTitular" ref="arquivo_titular"/>
+              <input type="file" id="anexo_titular" name="anexo_titular" @change="mudaAnexoTitular" ref="arquivo_titular" required/>
             </div>
           </div>
           <div class="tamanho_arquivo">
